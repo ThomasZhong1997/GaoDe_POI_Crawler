@@ -11,7 +11,7 @@ An useful clawer for downloading POIs from Gaode map by python3
 
 2.1 process_count 最大允许程序使用的进程数量，默认为100
 
-2.2 boundary 爬取的范围【xmin, ymin, xmax, ymax】请填写经纬度如：[118.213, 32.432, 119.321, 33.231]
+2.2 boundary 爬取的范围【xmin, xmax, ymin, ymax】请填写经纬度如：[118.213, 119.321, 32.432, 33.231]
 
 2.3 city 爬取的目标城市，填写城市的拼音简写，例如：上海 = shanghai
 
