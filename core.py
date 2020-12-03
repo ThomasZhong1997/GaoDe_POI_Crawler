@@ -1,5 +1,4 @@
 import requests
-import Distance as dt
 import math
 import json
 from multiprocessing import Process
