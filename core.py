@@ -199,7 +199,7 @@ def clawer_core_1(process_id, url, params_list, running_process, key_list):
         filename = 'magic' + time.strftime('%Y%m%d%H%M%S', time.localtime()) + str(rm.randint(0, 999999))
         md5 = hashlib.md5(filename.encode(encoding='UTF-8'))
         en_filename = md5.hexdigest()
-        with open('xiamen/{0}.csv'.format(en_filename), 'w', encoding="utf-8") as f:
+        with open('data/{0}.csv'.format(en_filename), 'w', encoding="utf-8") as f:
             for record in all_poi:
                 output_str = ''
                 for item in record:
