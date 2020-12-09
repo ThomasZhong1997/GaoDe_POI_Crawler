@@ -195,8 +195,9 @@ if __name__ == '__main__':
     boundary = [116.440687, 116.51242, 39.86446, 40.025556]
     window_size = 10000
     types = '010000|020000|030000|040000|050000|060000|070000|080000|090000|100000|110000|120000|130000|140000|150000|160000|170000|180000|190000|200000|210000|220000|990000'
-
-    url = 'https://restapi.amap.com/v3/place/polygon'
+    
+    # 对应的基本URL不带参数
+    url = “”
     rectangle_list = boundary_to_sample_points(boundary, window_size)
 
     all_poi = list()
