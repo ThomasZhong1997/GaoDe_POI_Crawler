@@ -191,7 +191,7 @@ def clawer_core_1(process_id, url, params_list, running_process, key_list):
 if __name__ == '__main__':
     process_count = 100
 
-    key_list = ["79fb07265f2bcaad62136e352baf071f", "9aa41ac11cc968eb09fd2597b0e968be", "d14ee8a58b7440880d1dc6f0008c5106", '2138bd46e46b71a1486cbef3ff3888b0', 'e245fcf34d441a2a91418cbf470a7dcd', 'a9cd2dfd27dc65c04f41b138b81abefc']
+    key_list = []
     boundary = [116.440687, 116.51242, 39.86446, 40.025556]
     window_size = 10000
     types = '010000|020000|030000|040000|050000|060000|070000|080000|090000|100000|110000|120000|130000|140000|150000|160000|170000|180000|190000|200000|210000|220000|990000'
