@@ -5,7 +5,7 @@ An useful clawer for downloading POIs from Gaode map by python3
 
 使用说明（Document）
 
-1 密钥（Keys）：本爬虫需要请求高德地图提供的API，因此需要用户自行提供可用于请求的Key（免费Key与收费Key均可），请将Key以数组的形式填充至key_list中。PS：若使用免费Key爬取会存在请求上限，若需要爬取大量POI请使用多个账号注册多个Key填充至key_list中，另外，仅使用单用户的Key进行爬取会被高德检测为爬虫且有封号风险，建议使用3个账号下的Key共同爬取（亲测三个账号混合爬取不会封号.jpg）。
+1 密钥（Keys）：本爬虫需要请求高德地图提供的API，因此需要用户自行提供可用于请求的Key（免费Key与收费Key均可），请将Key以数组的形式填充至key_list中。PS：若使用免费Key爬取会存在请求上限，若需要爬取大量POI请使用多个账号注册多个Key填充至key_list中，另外，仅使用单用户的Key进行爬取会被高德检测为爬虫且有封号风险。
 
 2 其它参数（Parameters）
 
